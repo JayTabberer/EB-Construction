@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(eb-home-image-one.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 600px;
+    border: 2px solid;
+    /* position: relative; */
+    overflow: scroll;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.navbar{
+    width: 100%;
+    overflow: hidden;
+    height: 70px;
+    line-height: 70px;
+    background: black;
+    border-bottom: 2px solid navy;
+
+
+}
+
+.logo {
+    width: 60px;
+    float: left;
+}
+
+/* This is for the ul tags */
+
+.menu{
+    float: right;
+}
+
+.menu li {
+    float: left;
+    width: 120px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    list-style: none;
+}
+
+.menu li a {
+    color: #ffff;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+
+}
+
+.menu li:hover {
+    background: navy;
+}
+
+.menu li a:hover {
+    color: slategray;
+}
